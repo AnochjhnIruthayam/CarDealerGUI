@@ -1,0 +1,26 @@
+﻿<Window x:Class="CarDealerGUI.BusinessCustomer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BusinessCustomer" Height="416" Width="396">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="168*" />
+            <ColumnDefinition Width="101*" />
+        </Grid.ColumnDefinitions>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="82,12,0,0" Name="CompanyNameBox" VerticalAlignment="Top" Width="202" Grid.ColumnSpan="2" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,59,90,0" Name="BSAddressBox" VerticalAlignment="Top" Width="202" Grid.ColumnSpan="2" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="82,119,0,0" Name="BSphoneBox" VerticalAlignment="Top" Width="202" Grid.ColumnSpan="2" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="82,169,0,0" Name="BSSEnr" VerticalAlignment="Top" Width="202" Grid.ColumnSpan="2" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="82,218,0,0" Name="BSFaxBox" VerticalAlignment="Top" Width="202" Grid.ColumnSpan="2" />
+        <TextBox Grid.ColumnSpan="2" Height="23" HorizontalAlignment="Left" Margin="82,284,0,0" Name="BSContactBox" VerticalAlignment="Top" Width="202" />
+        <Label Content="Name" Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="Namez" VerticalAlignment="Top" />
+        <Label Content="Address" Height="28" HorizontalAlignment="Left" Margin="12,57,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="phone" Height="28" HorizontalAlignment="Left" Margin="16,119,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="SE nr" Height="28" HorizontalAlignment="Left" Margin="16,169,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="Contact" Height="28" HorizontalAlignment="Left" Margin="12,279,0,0" Name="Contactz" VerticalAlignment="Top" />
+        <Label Content="Fax" Height="28" HorizontalAlignment="Left" Margin="16,218,0,0" Name="label5" VerticalAlignment="Top" />
+        <Button Content="OK" Height="23" HorizontalAlignment="Left" Margin="16,338,0,0" Name="BOKButton" VerticalAlignment="Top" Width="75" />
+        <Button Content="Cancel" Height="23" HorizontalAlignment="Left" Margin="127,338,0,0" Name="BCancelButton" VerticalAlignment="Top" Width="75" Click="BCancelButton_Click" />
+        <Button Content="Reset" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="29,338,0,0" Name="BResetButton" VerticalAlignment="Top" Width="75" Click="BResetButton_Click" />
+    </Grid>
+</Window>
